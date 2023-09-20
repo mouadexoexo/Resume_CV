@@ -23,7 +23,7 @@ EMAIL = "benalimouad1@gmail.com"
 Tel = "+33 7 64 01 84 40"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/mouadbenali/",
-    "GitHub": "https://github.com",
+    "GitHub": "https://github.com/mouadexoexo",
 }
 Certif = {
     "🏆 Conférence internationale sur Information Communication & Cybersecurity ICI2C ": current_dir / "assets"/"certif.pdf",
