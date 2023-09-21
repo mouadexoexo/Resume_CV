@@ -155,12 +155,18 @@ st.write(
 st.write('\n')
 st.subheader("Certificats de Compétence")
 st.write("---")
+pdf_data = {}
 for certificat, filename in Certif.items():
+    with open(filename, "rb") as pdf_file:
+        pdf_data[certificat] = pdf_file.read()
+        
+for certificat, pdf_byte in pdf_data.items():
     pdf_path = f"[{certificat}]({filename})"
     #st.markdown(pdf_path)
     st.download_button(
-        label=pdf_path,
-        data=PDFbyte,
-        file_name=resume_file.name,
-        mime="application/octet-stream",
+        label=f"{certificat}",
+        data=pdf_byte,
+        file_name=f"{certificat}.pdf",
+        mime="application/pdf",
     )
+
