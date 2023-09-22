@@ -110,9 +110,10 @@ st.write("---")
 #  1
 st.write("🚧", "**Data scientist - Analyst | PocketResult**")
 st.write("Mars 2023 - Septembre 2023")
+st.write("🚀","Missions")
 st.write(
     """
-- ► Création des bases de données
+- ► Création des bases de données.
 - ► Collaboration étroite avec les équipes interfonctionnelles pour fournir des recommandations fondées sur les analyses de données.
 - ► Data Cleaning : Préparation de nos données pour être analysé en nettoyant la base de données.
 - ► Transformations de données : simplifier les données existantes en les modifiant ou en les restructurant
@@ -122,23 +123,61 @@ st.write(
 """
 )
 
-# 2
-st.write('\n')
-st.write("🚧", "**Data scientist | Université IBN TOFAIL**")
-st.write("janvier 2020 - Décembre 2020")
+st.write(" ✅","Résultats")
 st.write(
     """
-- ► Réalistion un projet de création d'un système de prédiction novateur basé sur mon sujet de recherche doctorat:
-- *** Réalisation d'une analyse des données approfondie pour la sélection de produits optimaux à vendre.
-- *** Utilisation d'un modèle basé sur la distance euclidienne pour comparer un produit optimal avec un ensemble de produits.
-- *** Prédiction efficace du produit optimal à vendre en se basant sur les résultats de la comparaison.
-- *** Création d'une interface graphique conviviale pour faciliter l'utilisation du système de prédiction par les utilisateurs.
+- ► Contribution significative à l'avancement de projets en cours.
+- ► Finalisation réussie d'un projet, avec satisfaction client.
+- ► Transformation efficace des données pour les rendre plus compréhensibles
 """
 )
+
+st.write( "🛠️","Environnement technique")
+st.write("""
+- ► Python : PySpark - Streamlit - pandas
+- ► MYSQL WORKBENCH
+- ► Streamlit
+- ► Excel
+- ► Spark
+- ► Outil Interne de l'Entreprise
+""")
 st.write('\n')
+st.write("-----------------")
+
+
+# 2
+st.write("🚧", "**Data scientist | Université IBN TOFAIL**")
+st.write("janvier 2020 - Décembre 2020")
+st.write( "🧩","Contexte")
+st.write( "Réalisation un projet de création d'un système de prédiction novateur basé sur mon sujet de recherche doctorat")
+st.write("🚀","Missions")
+st.write(
+    """
+Réaliser un projet de recherche novateur visant à développer un système de prédiction basé sur les avancées de son sujet de thèse. Cette mission englobe la recherche, la conception, le développement et l'évaluation de solutions de pointe en matière de prédiction de données, tout en contribuant à l'avancement des connaissances dans le domaine de la science des données.
+
+"""
+)
+st.write(" ✅","Résultats")
+st.write("""
+- ► Création d'un système de prédiction optimal des produits à vendre.
+- ► Documenter et soumettre les résultats de la recherche à un journal scientifique de renom.
+- ► Obtenir l'acceptation de la publication dans le journal.
+- ► Présenter les résultats lors de conférences scientifiques de renom pour partager l'innovation et contribuer à la diffusion des connaissances dans le domaine de la data science.
+""")
+st.write( "🛠️","Environnement technique")
+st.write("""
+- ► Python : PCA - DTW - LCSS - Scikit-learn
+- ► Méthodes de Similarité : LCSS - DTW - Distance EUclidean
+- ► Flask
+""")
+st.write('\n')
+st.write("-----------------")
 # 3
 st.write("🚧", "**Data Analyst | Marjane**")
 st.write("octobre 2019 - janvier 2020")
+st.write( "🧩","Contexte")
+st.write("Marjane est un secteur de la grande distribution au Maroc qui propose une variété de produits, notamment des produits alimentaires, des produits électroniques, des vêtements, des articles ménagers, et bien plus encore. Pendant mon stage chez Marjane, j'ai eu l'opportunité de travailler au sein d'une équipe multidisciplinaire composée de développeurs, de spécialistes des données et de chefs de projet.")
+st.write("🚀","Missions")
 st.write(
     """
 - ► Collecter, nettoyer, préparer et analyser des ensembles de données complexes liés aux ventes, aux stocks et aux préférences des clients.
@@ -147,8 +186,25 @@ st.write(
 - ► Présenté de manière régulière des rapports de performance détaillés, mettant en avant les principaux indicateurs de performance (KPI) grâce aux tableaux de bord internes, tout en soulignant les améliorations de la qualité des données.
 """
 )
+st.write(" ✅","Résultats")
+st.write(
+    """
+- ► Identification et résolution proactive des erreurs de données, améliorant ainsi la fiabilité des informations utilisées pour les décisions opérationnelles.
+- ► Augmentation de la vitesse de prise de décision de l'équipe de gestion grâce à des tableaux de bord interactifs, ce qui a permis d'obtenir des résultats opérationnels plus rapides.
+- ► Facilitation de l'accès aux données essentielles pour les équipes, améliorant ainsi la communication et la collaboration au sein de l'entreprise.
+- ► Détection rapide et correction des anomalies dans les données de ventes
+- ► Correction des données incorrectes ou obsolètes dans les bases de données, assurant la précision des informations utilisées pour les opérations et les décisions stratégiques.
+"""
+)
+st.write( "🛠️","Environnement technique")
+st.write("""
+  - ►  Python: Pandas, NumPy et scikit-learn
+  - ►  SQL - PostgreSQL
+  - ►  Excel
+  - ►  Outil Interne de l'Entreprise
+""")
 
-
+st.write("-----------------")
 
 
 # --- Projects & Accomplishments ---
