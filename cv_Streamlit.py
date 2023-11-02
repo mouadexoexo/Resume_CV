@@ -17,7 +17,6 @@ PAGE_TITLE = "BENALI Mouad"
 PAGE_ICON = ":wave:"
 NAME = "BENALI Mouad"
 DESCRIPTION = """
-Consultant en Data Science et Ingénierie des Données
 """
 EMAIL = "benalimouad1@gmail.com"
 Tel = "+33 7 64 01 84 40"
