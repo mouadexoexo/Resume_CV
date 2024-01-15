@@ -5,16 +5,21 @@ from PIL import Image
 import base64
 
 
+
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "cv_data_analyst_Enginner.pdf"
-profile_pic = current_dir / "assets" / "mouad.png"
+css_file = Path(__file__).parent / "styles" / "main.css"
+resume_file = current_dir / "assets" / "cv.pdf"
+profile_pic = current_dir / "assets" / "mouad.jpg"
 
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "BENALI Mouad"
 PAGE_ICON = ":wave:"
+
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
 NAME = "BENALI Mouad"
 DESCRIPTION = """
 """
@@ -33,7 +38,6 @@ Certif = {
 }
 
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
 
@@ -75,7 +79,7 @@ st.write('\n')
 st.subheader("Résumé Professionnel")
 st.write(
     """
-- ✔️ 4 ans d'expérience dans l'extraction d'informations exploitables à partir des données
+- ✔️ Une Expérience Solide dans l'extraction d'informations exploitables à partir des données
 - ✔️ Solide expérience pratique et connaissance en Python
 - ✔️ Connaissance des bases de données SQL et l'optimisation de requêtes SQL.
 - ✔️ Capacité à communiquer efficacement des résultats d'analyse de données aux parties prenantes non techniques.
@@ -88,7 +92,7 @@ st.write('\n')
 st.subheader("Compétences")
 st.write(
     """
-- 👩‍💻 Langages de programmation : Python, R, Sql, Scala
+- 👩‍💻 Langages de programmation : Python, R, Sql, Scala, SAS
 - 🗄️ Base de données : Spark, PL/Sql, MYSQL, Hadoop, PostgreSQL.
 - 📊 Dashboard Et Visualisation : Power BI, Streamlit, MS EXCEL
 - 📚 Modeling: Régression linéaire, Régression logistique, PCA, K-Means Clustering, Arbres de décision, Forêts aléatoires
@@ -116,7 +120,8 @@ st.write(
 - ► Collaboration étroite avec les équipes interfonctionnelles pour fournir des recommandations fondées sur les analyses de données.
 - ► Data Cleaning : Préparation de nos données pour être analysé en nettoyant la base de données.
 - ► Transformations de données : simplifier les données existantes en les modifiant ou en les restructurant
-- ► Analyse Exploratoire : Faire une visualisations et des résumés pour examiner nos données pour mieux comprendre notre base de données. Création de Dashboards : Conception et développement de tableaux de bord interactifs pour présenter les résultats de l'analyse de données de manière convaincante.
+- ► Analyse Exploratoire : Faire une visualisations et des résumés pour examiner nos données pour mieux comprendre notre base de données.
+- ► Création de Dashboards : Conception et développement de tableaux de bord interactifs pour présenter les résultats de l'analyse de données de manière convaincante.
 - ► Mise en Production : Déploiement des modèles et solutions d'analyse dans des environnements de production, en veillant à leur fonctionnement optimal et à leur maintenance continue.
 
 """
