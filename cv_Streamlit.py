@@ -37,8 +37,13 @@ Certif = {
     "🏆 Deep Learning": current_dir / "assets"/"deeplearning.pdf",
 }
 
-
-
+projetss = {
+    "📋 Startup Expansion : Analysis & Creation Dashboards ": current_dir / "project"/"projet1.pdf",
+    "📋 Analyse de Données pour Sales Shop": current_dir / "project"/"projet2.pdf",
+    "📋  Online Food Project": current_dir / "project"/"project3.pdf",
+    "📋 Loan Default Analysis: Exploring Borrower Characteristics Impact ": current_dir / "project"/"projet4.pdf",
+    "📋 Predicting Car Prices": current_dir / "project"/"projet5.pdf",
+}
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
@@ -230,3 +235,20 @@ for certificat, pdf_byte in pdf_data.items():
         mime="application/pdf",
     )
 
+st.write('\n')
+st.subheader("Projets")
+st.write("---")
+pdf_data_project = {}
+for proj, filename in projetss.items():
+    with open(filename, "rb") as pdf_file:
+        pdf_data_project[proj] = pdf_file.read()
+        
+for proj, pdf_byte in pdf_data_project.items():
+    pdf_path = f"[{proj}]({filename})"
+    #st.markdown(pdf_path)
+    st.download_button(
+        label=f"{proj}",
+        data=pdf_byte,
+        file_name=f"{proj}.pdf",
+        mime="application/pdf",
+    )
